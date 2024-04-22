@@ -30,7 +30,7 @@ public interface iUsuarioMapper {
 
     /**
      * Retorna una lista de usuarios a pojo de una
-     * @param UsuarioEntity
+     * @param usuarioEntities
      * @return lista de usuarios pojos
      */
     List<UsuarioPojo> toUsuariosPojo(List<UsuarioEntity> usuarioEntities);
