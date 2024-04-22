@@ -1,11 +1,13 @@
 package com.juan.apprifas.persistance.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
-
+@Getter
+@Setter
 @Entity
 @Table(name = "usuarios")
 public class UsuarioEntity {
